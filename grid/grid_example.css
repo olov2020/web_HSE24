@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    text-align: center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 10px solid black;
+    color: white;
+}
