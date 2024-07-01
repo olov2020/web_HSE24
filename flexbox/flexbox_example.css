@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: aqua;
+    text-align: center;
+}
+
+.content {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*
+    flex-flow: row wrap;
+    */
+    
+}
+
+.content__article {
+    margin: 5px;
+    background-color: antiquewhite;
+    flex: 400px;
+}
+
+.example {
+    margin-top: 100px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    
+}
