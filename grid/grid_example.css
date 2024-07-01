@@ -11,6 +11,7 @@
     grid-template-rows: repeat(2, auto);
     justify-content: center;
     align-items: center;
+    column-gap: 20px;
 }
 
 .block{
